@@ -1,0 +1,18 @@
+# Core
+aiohttp>=3.9.0
+asyncio>=3.4.3
+websockets>=12.0
+
+# Telegram
+python-telegram-bot>=20.7
+
+# Browser
+selenium>=4.15.0
+undetected-chromedriver>=3.5.4
+fake-useragent>=1.5.0
+
+# Utils
+python-dotenv>=1.0.0
+colorama>=0.4.6
+psutil>=5.9.6
+redis>=5.0.1
