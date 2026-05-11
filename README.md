@@ -58,9 +58,7 @@ class ArmyStatus:
 ### Вариант 1: Render (бесплатно, 2 клика)
 
 ```yaml
-1. Нажми на кнопку ниже (ДА, ПРЯМО СЕЙЧАС):
-
-   [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/creator/ozeraptor-army)
+1. Создай web service с нашим репозиторием
 
 2. Вставь свой Telegram токен (получи у @BotFather)
 
@@ -82,7 +80,7 @@ docker run -d \
 ### Вариант 3: Python (голый скрипт)
 
 ```bash
-git clone https://github.com/creator/ozeraptor-army.git
+git clone "сюда вставь наш репозиторий"
 cd ozeraptor-army
 pip install -r requirements.txt
 python worker.py --token твой_токен
@@ -153,16 +151,8 @@ $ python worker.py --token 123456:ABCdef
 
 ---
 
-## 🏆 ТАБЛИЦА РЕКОРДОВ АРМИИ (ОБЩАЯ)
 
-| Показатель | Значение | Воин |
-|------------|----------|------|
-| Больше всех запросов | 13,337 | @ebanat1337 |
-| Самый долгий ответ | 187 сек | @penguin_warrior |
-| Самый быстрый воркер | 3.2 сек/запрос | @ssd_speed |
-| Старейшина армии | 30 дней онлайн | @no_life_hero |
 
-**Ты можешь побить любой рекорд. Просто запусти воркера и не выключай.**
 
 ---
 
@@ -260,7 +250,7 @@ A: Ctrl+C или /stop в телеграм боте.
 │                                                                 │
 │   НЕ ДУМАЙ. ДЕПЛОЙ. ЕБАШЬ.                                     │
 │                                                                 │
-│   https://github.com/creator/ozeraptor-army                    │
+│                      │
 │   https://t.me/ozeraptor_army                                  │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
