@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: ozeraptor-worker
+    env: docker
+    repo: https://github.com/tralilitosmaster-art/CloseAI-tools
+    branch: main
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: ATTACK_MODE
+        value: aggressive
